@@ -1,2 +1,2 @@
 # Modal
-Using modal for photo. When clicks the photo the second window come and you can see the details.
+Using modal for picture. When clicks the picture the second window come and you can see a video and some details.

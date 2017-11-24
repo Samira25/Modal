@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Favorite Movies</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="movstyle.css">
+</head>
+<body>
+
+<!-- section start -->
+	<div class="container">
+		<div class="row">
+			<section>
+
+    <!-- section body start -->
+				<div class="row">
+				    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3" id="one">
+						<a href="#modal1" data-toggle="modal"><img class="img-rounded img-responsive" src="https://images-na.ssl-images-amazon.com/images/M/MV5BMTQ1ODM2MjY3OV5BMl5BanBnXkFtZTgwMTU2MjEyMDE@._V1_.jpg"></a>
+					</div>
+
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3" id="two">
+						<a href="#modal2" data-toggle="modal"><img class="img-rounded img-responsive" src="http://cinescopia.com/wp-content/uploads/2017/06/10050802_Inception_02.jpg"></a>
+					</div>
+				</div>
+				
+<!-- section body finish -->
+
+			</section>
+		</div>
+	</div>
+<!-- section finish -->
+
+<!-- modal 1 start -->
+
+    <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+       <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+             <div class="modal-header">
+                 <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="video1()"><span aria-hidden="true">&times;</span></button>
+                 <h4 class="modal-title" id="myModalLabel">The Shawshank Redemption (1994)</h4>
+             </div>
+             <div class="modal-body">
+                 <div class="row">
+                 	<div class="embed-responsive embed-responsive-16by9 col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                 		<iframe class="vid1" class="embed-responsive-item" src="https://www.youtube.com/embed/6hB3S9bIaco" frameborder="0" allowscriptaccess="always" quality="high"></iframe>
+                 	</div>
+
+                 	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                 		<p><b>Plot Summery:</b> Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.</p><br> 
+                 	    <p><b>Stars:</b> Tim Robbins, Morgan Freeman</p>
+                 	    <p><b>Genre:</b> Crime, Drama</p>
+                 	    <p><b>imdb Rating:</b> 9.3/10</p>
+                 	</div>
+                 </div>
+             </div>
+             <div class="modal-footer">
+                 <button type="button" class="btn btn-danger" data-dismiss="modal" onclick="video1()">Close</button>
+             </div>
+          </div>
+       </div>
+    </div>
+<!-- modal 1 finish -->
+
+<!-- modal 2 start -->
+
+    <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+       <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+             <div class="modal-header">
+                 <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="video2()"><span aria-hidden="true">&times;</span></button>
+                 <h4 class="modal-title" id="myModalLabel">Inception (2010)</h4>
+             </div>
+             <div class="modal-body">
+                 <div class="row">
+                 	<div class="embed-responsive embed-responsive-16by9 col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                 		<iframe class="vid2" class="embed-responsive-item" src="https://www.youtube.com/embed/d3A3-zSOBT4" frameborder="0" allowscriptaccess="always" quality="high"></iframe>
+                 	</div>
+
+                 	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                 		<p><b>Plot Summery:</b> A thief, who steals corporate secrets through use of dream-sharing technology, is given the inverse task of planting an idea into the mind of a CEO.</p><br> 
+                 	    <p><b>Stars:</b> Leonardo DiCaprio, Joseph Gordon-Levitt, Ellen Page, Tom Hardy</p>
+                 	    <p><b>Genre:</b>  Action, Adventure, Sci-Fi </p>
+                 	    <p><b>imdb Rating:</b> 8.8/10</p>
+                 	</div>
+                 </div>
+             </div>
+             <div class="modal-footer">
+                 <button type="button" class="btn btn-danger" data-dismiss="modal" onclick="video2()">Close</button>
+             </div>
+          </div>
+       </div>
+    </div>
+<!-- modal 2 finish -->
+
+<script src="script.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>

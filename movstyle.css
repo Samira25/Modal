@@ -1,0 +1,29 @@
+#head{
+   margin: 1%; 
+   padding: 1%;
+   font-size: 20px;
+   text-align: center;
+   font-family: consolas;
+}
+
+nav, h4, p{
+   font-family: consolas;
+}
+
+iframe{
+   width: 50%;
+   height: 50%;
+   display: inline-block;
+}
+
+div{
+	padding-top: 20px; 
+}
+
+#one{
+	float: left;
+}
+
+#two{
+	float: right;
+}
